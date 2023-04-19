@@ -1,5 +1,6 @@
 import React from 'react'
 
+//TODO: CODE REVIEW BY AG
 const List = () => {
   return (
     <div className='list'>

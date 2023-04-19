@@ -1,5 +1,6 @@
 import React from 'react'
 
+//TODO: CODE REVIEW BY AG
 export const Nav = () => {
   return (
     <nav className='navbar'>
