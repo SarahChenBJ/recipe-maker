@@ -1,0 +1,42 @@
+@font-face{
+    font-family: 'Youshe-title';
+    src: url('youshe-title.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Zhanku-title';
+    src: url('zhanku-title.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'DH-5';
+    src: url('DreamHanSerifCN-W5.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'DH-20';
+    src: url('DreamHanSerifCN-W20.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'DH-27';
+    src: url('DreamHanSerifCN-W27.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'cyklop-italic';
+    src: url('Cyklop-Italic.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Qtbodiniposter';
+    src: url('Qtbodiniposter.otf');
+    font-weight: normal;
+    font-style: normal;
+}

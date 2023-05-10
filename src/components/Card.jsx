@@ -40,7 +40,6 @@ export const ViewCard = ({ data }) => {
         evaluation: 24,
         backgroundColor: (theme) =>
           theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
-
       }}
     >
       <Grid container spacing={2} direction="row">

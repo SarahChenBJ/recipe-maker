@@ -10,11 +10,11 @@ import Typography from '@mui/material/Typography';
 import { red } from '@mui/material/colors';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import ShareIcon from '@mui/icons-material/Share';
-import { CardActionArea, Chip, Divider, Modal, Stack } from '@mui/material';
+import { CardActionArea, Chip, Divider, Modal, Stack,Button } from '@mui/material';
 import ComplexGrid from './testpop';
 import { ViewCard } from './Card';
-
-
+import { ViewCard2} from './Card2';
+import { ViewCover } from './Cover'
 
 
 export default function RecipeReviewCard({ data }) {
@@ -22,10 +22,13 @@ export default function RecipeReviewCard({ data }) {
     const viewCard = () => setOpen(true);
     const closeCard = () => setOpen(false);
 
+    const [coverOpen, setCoverOpen] = React.useState(false);
+    const viewCover = () => setCoverOpen(true);
+    const closeCover = () => setCoverOpen(false);
 
     return (
         <>
-        <Card sx={{ maxWidth: 345 }}>
+        <Card sx={{ maxWidth: 380 }} className="card-thumb">
             <CardActionArea onClick={viewCard} >
             {/* <CardHeader
                 // avatar={
@@ -59,7 +62,7 @@ export default function RecipeReviewCard({ data }) {
             </CardContent>
             </CardActionArea>
 
-            <CardActions disableSpacing>
+            {/* <CardActions disableSpacing>
                 <IconButton aria-label="add to favorites" >
                     <FavoriteIcon/>
                 </IconButton>
@@ -67,6 +70,11 @@ export default function RecipeReviewCard({ data }) {
                     <ShareIcon />
                 </IconButton>
                 
+            </CardActions> */}
+            <CardActions onClick={viewCover}>
+                <Button size="small" color="primary">
+                View Cover
+                </Button>
             </CardActions>
         </Card>
         <Modal
@@ -75,7 +83,16 @@ export default function RecipeReviewCard({ data }) {
             aria-labelledby="modal-modal-title"
             aria-describedby="modal-modal-description"
         >
-            <ViewCard data={data}/>
+            {data.lang === 'zh' ? <ViewCard2 data={data}/> : <ViewCard data={data}/>}
+            
+        </Modal>
+        <Modal
+            open={coverOpen}
+            onClose={closeCover}
+            aria-labelledby="modal-modal-title"
+            aria-describedby="modal-modal-description"
+        >
+            <ViewCover data={data}/>
 
         </Modal>
         
