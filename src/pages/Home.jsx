@@ -3,6 +3,7 @@ import Nav from "../components/nav"
 import Banner from "../components/banner"
 import Summary from "../components/summary"
 import List from "../components/list"
+import ListCards from "../components/listcard"
 import Footer from "../components/footer"
 
 export async function homeAction({request}) {
@@ -19,7 +20,8 @@ const Home = () => {
       <Nav/>
       <Banner/>
       <Summary/>
-      <List/>
+      {/* <List/> */}
+      <ListCards/>
       <Footer/>
     </div>
   )

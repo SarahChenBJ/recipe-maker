@@ -1,23 +1,25 @@
 /*TODO: CODE REVIEW BY AG*/
 .home{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
     justify-content: center;
+    margin:auto;
+
 }
 
 /*======= navbar css starts =======*/
 .navbar{
     background-color: black;
     height: 80px;
-    width: 1400px;
+    width: 1200px;
 }
 
 .navbar-container{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 1300px;
+    width: 1100px;
 }
 
 .menu-container {
@@ -37,7 +39,7 @@
 .banner{
     background-color: whitesmoke;
     height: 800px;
-    width: 1400px;
+    width: 1200px;
 }
 .banner-flex {
     display: flex;
@@ -65,7 +67,7 @@
 .summary{
     background-color: whitesmoke;
     height: 400px;
-    width: 1400px;
+    width: 1200px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -95,12 +97,11 @@
 /*======= list css starts =======*/
 .list{
     background-color: whitesmoke;
-    height: 1300px;
-    width: 1400px;
+    width: 1200px;
 }
 .list-flex{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 10px;
     row-gap: 40px;
     margin-top: 40px;
@@ -120,8 +121,13 @@
     width: 260px;
 }
 .story{
-    font-size:15px;
-    width:250px;
+    font-size:11px;
+    width:230px;
+    line-height: 16px;
+    overflow: hidden;
+    white-space: normal;
+    text-overflow: ellipsis;
+    max-height: 65px;
 }
 
 
@@ -130,7 +136,7 @@
 .footer{
     background-color: black;
     height: 100px;
-    width: 1400px;
+    width: 1200px;
 }
 
 .menu-li a{

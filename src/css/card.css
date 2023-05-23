@@ -11,10 +11,22 @@
 .body{
     font-family: "PingFang SC", "Lantinghei SC", "Microsoft YaHei", "HanHei SC", "Helvetica Neue", "Open Sans", Arial, "Hiragino Sans GB", 微软雅黑, STHeiti, "WenQuanYi Micro Hei", SimSun, sans-serif;
 }
+
 .card-paper{
+    overflow: auto;
+    position: relative;
+    
+}
+.card-paper::-webkit-scrollbar{
+    width: 4px;
+}
+.card-paper::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    width:1100px;
-    height: 650px;
+    background: rgba(0,0,0,0.2);
+}
+.card-paper::-webkit-scrollbar-track{
+    border-radius: 0;
+    background:  rgba(0,0,0,0.1);
 }
 
 .card-container{
@@ -69,13 +81,14 @@
     margin:15px;
 }
 .step-item{
-    font-size: 11px;
+    font-size: 10.5px;
     font-family: PingFang HK;
     margin-bottom: 8px;
     margin-left: 18px;
     margin-right: 35px;
     line-height: 18px;
 }
+
 
 .card-label{
     margin-bottom: 5px;
@@ -132,3 +145,297 @@
 }
 
 
+/*-------- vertical card css --------------*/
+.vcard-container{
+    display: flex;
+    flex-flow: column nowrap;
+    margin-top: -6px;
+    align-items: center;
+}
+.vcard-text-container{
+    margin:18px;
+}
+/* .vcard-text-container .title-font{
+    font-size: 36px;
+    font-weight:600;
+    letter-spacing: 6px;
+} */
+
+.vcard-head-container{
+    background:  no-repeat center;
+    background-size: cover;
+    width:100%;
+    height: 360px;
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-rows: 20% 60% 20%;
+    align-items: center;
+    justify-items: center;
+    position:relative;
+    z-index: 0; 
+    border-radius:5px 5px 0 0 ;
+}
+
+.card-instruction-container{
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0 20px 0 20px;
+}
+
+
+.card-instruction{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.card-instruction-container .card-serve{
+    margin-left:18px;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.card-instruction .ingredient{
+    width: 25%;
+    margin-left: 18px;
+}
+
+.card-instruction .step{
+    width: 75%;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.card-instruction .instr-text {
+    line-height: 18px;
+    margin-top:6px;
+}
+
+.step-item p{
+    width: 100%;
+    
+}
+
+
+/*-------------- vertical card2 css ------------------*/
+.vcard-container-mix{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: 20px;
+}
+.vcard-head-mix{
+    display: flex;
+    flex-flow: row nowrap;
+    height: 280px;
+}
+
+.vcard-head-mix .vcard-head-container{
+    height: unset;
+    width: 45%;
+    border-radius: 6px;
+}
+
+.vtitle-font-mix{
+    font-size: 48px;
+    font-weight: bolder;
+    font-family: 'Lantinghei sc';
+    letter-spacing: 5px;
+}
+
+.vsubtitle-font-mix{
+    color: #BD6666;
+    font-size: 16px;
+    font-family: Arial Narrow;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.vcard-intro{
+    width: 55%;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items:stretch;
+}
+.aaa{
+    height: 60%;
+}
+
+.vcard-intro .intro-font{
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.mgt-30{
+    margin-top:30px;
+}
+
+.mgt-20{
+    margin-top:20px;
+}
+
+
+/*------------ card 2-1 css  ------------*/
+
+.bcard-container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:space-evenly;
+    width: 1150px;
+    height: 625px;
+    padding: 10px;
+    /* border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2); */
+}
+
+.bcard-img-container {
+    background:  no-repeat center;
+    background-size: cover;
+    width: 570px;
+    position:relative;
+    z-index: 0; 
+    border-radius: 10px ;
+    /* margin: 0 15px 15px 0; */
+}
+
+.bcard-text-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 25%;
+}
+
+.bcard-text-content{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    margin-top: 42px;
+    margin-right: 8px;
+    height: 70%;
+    padding: 5px 16px;
+}
+
+.bcard-text-container{
+    width: 58%;
+    display: flex;
+    flex-direction: column;
+    margin-left:8px;
+}
+
+.bcard-title{
+    margin-top: 8px;
+}
+
+.bcategory-font{
+    font-family: 'PingFang SC';
+    font-size: 10px;
+    color: gray;
+}
+
+.btitle-font{
+    font-size: 42px;
+    font-weight: bolder;
+    font-family: 'Lantinghei sc';
+    letter-spacing: 5px;
+}
+
+.bsubtitle-font{
+    color: #BD6666;
+    font-size: 11px;
+    font-family: Arial Narrow;
+    font-weight: bold;
+    line-height: 20px;
+}
+.bintro-font{
+    font-family: kai;
+    font-size: 11px;
+    color: gray;
+}
+
+.bcard-serve{
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.bcard-ingre{
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+    font-family: PingFang HK;
+    width: 50%;
+    margin: 15px;
+    margin-right: 10px;
+    line-height: 20px;
+}
+
+
+.bcard-steps{
+    display: flex;
+    flex-flow: column nowrap;
+    margin:15px 25px 0 25px;
+}
+.bstep-item{
+    font-size: 10.5px;
+    font-family: PingFang HK;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 10px;
+    line-height: 16px;
+}
+
+.bcard-intro {
+    margin: 18px 15px 18px 15px;
+    text-align: center;
+    line-height: 16px;
+}
+
+/*-------------------- vcard4-1 ---------------------*/
+.vbcard-text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.vbcard-text-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 28px;
+}
+
+.vbcard-instruction-container{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+
+.vbcard-ingre{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    font-family: PingFang HK;
+    width: 50%;
+    margin: 15px;
+    margin-right: 10px;
+    line-height: 28px;
+}
+
+.vbcard-steps{
+    display: flex;
+    flex-flow: column nowrap;
+    margin:15px 25px 0 25px;
+}
+
+.vbstep-item{
+    font-size: 12px;
+    font-family: PingFang HK;
+    margin-bottom: 16px;
+    margin-left: 18px;
+    margin-right: 30px;
+    line-height: 28px;
+}
+
+.grouptitle{
+    font-weight: bold;
+}

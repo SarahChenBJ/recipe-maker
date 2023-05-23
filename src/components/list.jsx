@@ -1,7 +1,9 @@
 import React from 'react'
 import RecipeReviewCard from "./RecipeCard";
+import RecipeReviewCard2 from "./listTemplate/RecipeCard2";
 import recipes from "../../data/recipes.json"
 import frecipes from "../../data/fittingRecipes.json"
+import axios from 'axios'
 
 const recipe = {
   title: 'meatballs in tomato sauce',
@@ -35,95 +37,39 @@ const recipe = {
 
 //TODO: CODE REVIEW BY AG
 const List = () => {
+  // const constructor = (props) => {
+  //   super(props);
+  //   this.state = {
+  //     frecipes: []
+  //   }
+  // };
+  // const componentDidMount = ()=>{
+  //   axios.get(`http://127.0.0.1:50051/cards`)
+  //   .then(res => {
+  //     const frecipes = res.data
+  //     this.setState({frecipes})
+  //   })
+  // };
+    // var frecipes = []
+    // axios.get(`http://localhost:50051/cards`)
+    // .then(res => {
+    //   console.log("succeed:",res)
+    //   frecipes = res.data
+    //   this.setState({frecipes})
+    // })
+
+
+  // const res =  axios.get('cards');
+  // console.log(res.data)
+
   return (
     <div className='list'>
-      <div className='list-flex'>
-      {/* <div className='card'>
-        <img className='card-img' src="./src/assets/cornbread.png"/>
-        <h3>Mama's Cornbread</h3>
-        <div className='card-story'>
-          <div className='tag'></div>
-          <div className='story'>
-          In our family, we have two versions of cornbread: one is from the US and the other is from northeast China. The main difference is Chinese version will have yeast to help rise, in which case, it’ll take longer than the American version.
-          </div>
-        </div>
-      </div> */}
+      <div className='list-flex'> 
       {
         frecipes.map((recipe, i) => {
           return <RecipeReviewCard data={recipe}/>
         })
       }
-      
-      {/* <div className='card'>
-        <img className='card-img' src="./src/assets/cornbread.png"/>
-        <h3>Mama's Cornbread</h3>
-        <div className='card-story'>
-          <div className='tag'></div>
-          <div className='story'>
-          In our family, we have two versions of cornbread: one is from the US and the other is from northeast China. The main difference is Chinese version will have yeast to help rise, in which case, it’ll take longer than the American version.
-          </div>
-        </div>
-      </div>
-      <div className='card'>
-        <img className='card-img' src="./src/assets/cornbread.png"/>
-        <h3>Mama's Cornbread</h3>
-        <div className='card-story'>
-          <div className='tag'></div>
-          <div className='story'>
-          In our family, we have two versions of cornbread: one is from the US and the other is from northeast China. The main difference is Chinese version will have yeast to help rise, in which case, it’ll take longer than the American version.
-          </div>
-        </div>
-      </div>
-      <div className='card'>
-        <img className='card-img' src="./src/assets/cornbread.png"/>
-        <h3>Mama's Cornbread</h3>
-        <div className='card-story'>
-          <div className='tag'></div>
-          <div className='story'>
-          In our family, we have two versions of cornbread: one is from the US and the other is from northeast China. The main difference is Chinese version will have yeast to help rise, in which case, it’ll take longer than the American version.
-          </div>
-        </div>
-      </div>
-      <div className='card'>
-        <img className='card-img' src="./src/assets/cornbread.png"/>
-        <h3>Mama's Cornbread</h3>
-        <div className='card-story'>
-          <div className='tag'></div>
-          <div className='story'>
-          In our family, we have two versions of cornbread: one is from the US and the other is from northeast China. The main difference is Chinese version will have yeast to help rise, in which case, it’ll take longer than the American version.
-          </div>
-        </div>
-      </div>
-      <div className='card'>
-        <img className='card-img' src="./src/assets/cornbread.png"/>
-        <h3>Mama's Cornbread</h3>
-        <div className='card-story'>
-          <div className='tag'></div>
-          <div className='story'>
-          In our family, we have two versions of cornbread: one is from the US and the other is from northeast China. The main difference is Chinese version will have yeast to help rise, in which case, it’ll take longer than the American version.
-          </div>
-        </div>
-      </div>
-      <div className='card'>
-        <img className='card-img' src="./src/assets/cornbread.png"/>
-        <h3>Mama's Cornbread</h3>
-        <div className='card-story'>
-          <div className='tag'></div>
-          <div className='story'>
-          In our family, we have two versions of cornbread: one is from the US and the other is from northeast China. The main difference is Chinese version will have yeast to help rise, in which case, it’ll take longer than the American version.
-          </div>
-        </div>
-      </div>
-      <div className='card'>
-        <img className='card-img' src="./src/assets/cornbread.png"/>
-        <h3>Mama's Cornbread</h3>
-        <div className='card-story'>
-          <div className='tag'></div>
-          <div className='story'>
-          In our family, we have two versions of cornbread: one is from the US and the other is from northeast China. The main difference is Chinese version will have yeast to help rise, in which case, it’ll take longer than the American version.
-          </div>
-        </div>
-      </div> */}
       </div>
       
     </div>

@@ -1,0 +1,528 @@
+[
+    {
+        "id": "64648966c4abaefae13f14df",
+        "title": "原味贝果",
+        "subheader": "Bagels",
+        "intro": "住在纽约的时候, 从没想到有一天会自己做 Bagel, 因为那里满大街的经典和创意Bagel. 我最爱的两种bagel搭配: 一定是 Brooklyn Bagel Company 的cinnamon raisin bagel 配上 walnut cream cheese 和 Pick A Bagel家的 Pumpernickle Bagel 配上scallion cream cheese 和 smoked salmon. 搬离纽约后, 才发现真的很难找到外表酥脆厚实, 内里嚼劲十足的 bagel, 于是找了各种配方, 尝试了很多版本, 终于做出了口感类似的bagel. 这是一个历时 3 天的工程, 所以每次都会直接做 10 个, 然后把多余的切开冻起来. 每次打开冷冻, 看到满满一袋 Bagel的时候, 就会感觉自己简直就是一个富翁.",
+        "serves": 10,
+        "instruction": {
+            "groups": [
+                {
+                    "group_order": 1,
+                    "title": "第一天晚上: 准备烫种和波兰种"
+                },
+                {
+                    "group_order": 2,
+                    "title": "第二天: 揉面, 发酵, 塑形"
+                },
+                {
+                    "group_order": 3,
+                    "title": "第三天: 煮 bagel, 烘烤"
+                },
+            ],
+            "steps": [
+                {
+                    "group_order": 1,
+                    "step_order": 1,
+                    "desc": "烫种: 一个不怕烫适合放在冰箱里面的容器, 全麦面包粉和沸水混合搅匀, 冷却后放冰箱冷藏一夜"
+                },
+                {
+                    "group_order": 1,
+                    "step_order": 2,
+                    "desc": "波兰种: 准备一个高一点的容器, 加入面粉, 酵母和水混合后, 室温发酵大概4 - 5个小时, 放冰箱冷藏一夜"
+                },
+                {
+                    "group_order": 2,
+                    "step_order": 3,
+                    "desc": "把所有材料加上头一天晚上的烫种和波兰种搅拌均匀, 揉面 15 分钟左右, 揉出粗膜即可; 温暖的地方醒发 40min 左右, 大概发到 1.5 倍大."
+                },
+                {
+                    "group_order": 2,
+                    "step_order": 4,
+                    "desc": "塑形: 醒发好的面团, 揉搓排气后, 均匀分成大概100g一个的小面团, 盖上布再醒 5 分钟, 松弛一下面团; 把小面团揉搓排气后, 开始塑形: 市面上有很多塑形方法, 找一个自己喜欢的方式, 把小面团塑形成 bagel 的样子, 为每个 bagel 下面垫上剪裁得大小适合的方形烘焙纸, 方便明天的煮贝果操作."
+                },
+                {
+                    "group_order": 2,
+                    "step_order": 5,
+                    "desc": "二发: 温暖的地方或者烤箱 30°C, 发酵 30 分钟即可; 装进盘子里, 放到冰箱里冷藏过夜."
+                },
+                {
+                    "group_order": 3,
+                    "step_order": 6,
+                    "desc": "烤箱预热: 230°C, 10 分钟"
+                },
+                {
+                    "group_order": 3,
+                    "step_order": 7,
+                    "desc": "煮 bagel: 每 1L 水中, 放 1g小苏打, 5g红糖; 我这里用了 2L 水, 加入对应量的小苏打和红糖后, 煮沸调小火, 放入 bagel, 每面 30s, 捞出沥干表面水, 放入烤盘. "
+                },
+                {
+                    "group_order": 3,
+                    "step_order": 8,
+                    "desc": "烘烤: 烤箱 230°C, 上下火烤 15min"
+                },
+                {
+                    "group_order": 3,
+                    "step_order": 9,
+                    "desc": "这份配量一次可以做 10 个, 多余吃不了的可以对半切开, 放入冷冻, 需要的时候拿出直接烘烤. 配上cream cheese和一杯热咖啡, 也能能量满满的开启一天."
+                }
+            ],
+            "ingredients": [
+                {
+                    "name": "全麦面包粉",
+                    "amount": "120g",
+                    "group_order": 1,
+                    "step_order": 1
+                },
+                {
+                    "name": "沸水",
+                    "amount": "140g",
+                    "group_order": 1,
+                    "step_order": 1
+                },
+                {
+                    "name": "普通面粉",
+                    "amount": "120g",
+                    "group_order": 1,
+                    "step_order": 2
+                },
+                {
+                    "name": "常温水",
+                    "amount": "120g",
+                    "group_order": 1,
+                    "step_order": 2
+                },
+                {
+                    "name": "干酵母",
+                    "amount": "2g",
+                    "group_order": 1,
+                    "step_order": 2
+                },
+                {
+                    "name": "面包粉",
+                    "amount": "360g",
+                    "group_order": 2,
+                    "step_order": 3
+                },
+                {
+                    "name": "红糖",
+                    "amount": "15g",
+                    "group_order": 2,
+                    "step_order": 3
+                },
+                {
+                    "name": "白糖",
+                    "amount": "15g",
+                    "group_order": 2,
+                    "step_order": 3
+                },
+                {
+                    "name": "盐",
+                    "amount": "10g",
+                    "group_order": 2,
+                    "step_order": 3
+                },
+                {
+                    "name": "水",
+                    "amount": "100g",
+                    "group_order": 2,
+                    "step_order": 3
+                },
+                {
+                    "name": "酵母",
+                    "amount": "2g",
+                    "group_order": 2,
+                    "step_order": 3
+                },
+                {
+                    "name": "烫种",
+                    "amount": "",
+                    "group_order": 2,
+                    "step_order": 3
+                },
+                {
+                    "name": "波兰种",
+                    "amount": "",
+                    "group_order": 2,
+                    "step_order": 3
+                },
+                {
+                    "name": "小苏打",
+                    "amount": "2g",
+                    "group_order": 3,
+                    "step_order": 7
+                },
+                {
+                    "name": "红糖",
+                    "amount": "10g",
+                    "group_order": 3,
+                    "step_order": 7
+                },
+                {
+                    "name": "水",
+                    "amount": "2L",
+                    "group_order": 3,
+                    "step_order": 7
+                },
+            ],
+        },
+        "instructions": [
+            {
+                "ingredients": [
+                    ""
+                ],
+                "steps": [
+                    "第一天晚上: 准备烫种和波兰种"
+                ]
+            },
+            {
+                "ingredients": [
+                    "120g 全麦面包粉",
+                    "140g 沸水"
+                ],
+                "steps": [
+                    "1. 烫种: 一个不怕烫适合放在冰箱里面的容器, 全麦面包粉和沸水混合搅匀, 冷却后放冰箱冷藏一夜"
+                ]
+            },
+            {
+                "ingredients": [
+                    "120g 普通面粉",
+                    "120g 常温水",
+                    "2g 干酵母"
+                ],
+                "steps": [
+                    "2. 波兰种: 准备一个高一点的容器, 加入面粉, 酵母和水混合后, 室温发酵大概4 - 5个小时, 放冰箱冷藏一夜"
+                ]
+            },
+            {
+                "ingredients": [],
+                "steps": [
+                    "第二天: 揉面, 发酵, 塑形"
+                ]
+            },
+            {
+                "ingredients": [
+                    "360g 面包粉",
+                    "15g 红糖",
+                    "15g 白糖",
+                    "10g 盐",
+                    "100g 水",
+                    "2g 酵母",
+                    "烫种",
+                    "波兰种"
+                ],
+                "steps": [
+                    "1. 把所有材料加上头一天晚上的烫种和波兰种搅拌均匀, 揉面 15 分钟左右, 揉出粗膜即可; 温暖的地方醒发 40min 左右, 大概发到 1.5 倍大.",
+                    "2. 塑形: 醒发好的面团, 揉搓排气后, 均匀分成大概100g一个的小面团, 盖上布再醒 5 分钟, 松弛一下面团; 把小面团揉搓排气后, 开始塑形: 市面上有很多塑形方法, 找一个自己喜欢的方式, 把小面团塑形成 bagel 的样子, 为每个 bagel 下面垫上剪裁得大小适合的方形烘焙纸, 方便明天的煮贝果操作.",
+                    "3. 二发: 温暖的地方或者烤箱 30°C, 发酵 30 分钟即可; 装进盘子里, 放到冰箱里冷藏过夜."
+                ]
+            },
+            {
+                "ingredients": [],
+                "steps": [
+                    "第三天: 煮 bagel, 烘烤"
+                ]
+            },
+            {
+                "ingredients": [],
+                "steps": [
+                    "1. 烤箱预热: 230°C, 10 分钟"
+                ]
+            },
+            {
+                "ingredients": [
+                    "2g 小苏打",
+                    "10g 红糖",
+                    "2L 水"
+                ],
+                "steps": [
+                    "2. 煮 bagel: 每 1L 水中, 放 1g小苏打, 5g红糖; 我这里用了 2L 水, 加入对应量的小苏打和红糖后, 煮沸调小火, 放入 bagel, 每面 30s, 捞出沥干表面水, 放入烤盘. "
+                ]
+            },
+            {
+                "ingredients": [],
+                "steps": [
+                    "3. 烘烤: 烤箱 230°C, 上下火烤 15min"
+                ]
+            },
+            {
+                "ingredients": [],
+                "steps": [
+                    "4. 这份配量一次可以做 10 个, 多余吃不了的可以对半切开, 放入冷冻, 需要的时候拿出直接烘烤. 配上cream cheese和一杯热咖啡, 也能能量满满的开启一天."
+                ]
+            }
+        ],
+        "ingredients": [
+            "250g 面粉",
+            "4g 泡打粉",
+            "2g 小苏打",
+            "80g 白砂糖",
+            "120g 食用油(50g 黄油 + 70g 花生仁油)",
+            "1颗 鸡蛋",
+            "50g 核桃仁",
+            "少量 黑芝麻(装饰)"
+        ],
+        "steps": [
+            "1. 处理核桃仁: 核桃仁切碎, 放入烤箱, 150°C, 5 分钟, 放凉备用",
+            "2. 在一个大碗里, 放入干料(面粉, 泡打粉, 小苏打), 混合均匀",
+            "3. 另取一个碗, 放入融化的黄油, 花生油, 打入鸡蛋, 搅拌至发白乳化; 搅拌过程中, 分几次放入白砂糖, 搅拌均匀",
+            "4. 在干料中间, 挖一个洞, 倒入搅拌好的蛋油混合液, 混合搅拌成团(成团即可, 不要过度揉搓面团); 拌入烤好放凉的核桃仁, 搅拌均匀.",
+            "5. 烤箱 180 °C, 预热 10 分钟. 预热期间, 将面团分成大小均匀的 20 分, 揉成球再压扁放到烤盘上. 摆好之后, 中间撒点黑芝麻点缀.",
+            "6. 放入烤箱, 180 °C 20分钟(或根据自己烤箱脾气, 上色即可). ",
+            "7. 取出放凉, 核桃酥做好了. 配上一杯牛奶, 酥脆可口."
+        ],
+        "img": "./src/assets/bagel-detail-big.jpg",
+        "coverImg": "./src/assets/bagel-detail-small.jpg",
+        "labels": [
+            "烘焙",
+            "减脂"
+        ],
+        "cal": "229",
+        "sign": "陈沙拉",
+        "meal": "Breakfast",
+        "category": "烘焙"
+    },
+    {
+        "id": "645e00981a0b7c2438ba0229",
+        "user_id": 1,
+        "title": "北非炖蛋",
+        "subheader": "shakshuka",
+        "intro": "北非蔬菜炖蛋 Shakshuka, 冰箱剩菜杀手，每到周末清理冰箱遗留蔬菜的时候, 我都会做一次. 做法很多，食材也灵活，但底味里的一点点的小茴香和孜然，还有鸡蛋上面撒的甜椒粉是北非炖蛋的灵魂. ",
+        "sign": "陈沙拉",
+        "serves": 2,
+        "img": "./src/assets/shakshuka.jpg",
+        "ingredients": [
+            "20g, 洋葱",
+            "20g, 彩椒/青辣椒",
+            "50g, 口蘑(其他蘑菇也可)",
+            "2 瓣, 蒜",
+            "5 颗, 小菠菜",
+            "2 颗, 鸡蛋",
+            "1 个, 番茄",
+            "10 粒(一小捏), 小茴香",
+            "10 粒(一小捏), 孜然",
+            "少许, 黑胡椒粉",
+            "少许, 盐",
+            "1 勺, 橄榄油",
+            "少许, 甜椒粉 Paprika(或细辣椒粉), 装饰",
+            "1 根, 香菜, 装饰"
+        ],
+        "steps": [
+            "1. 处理食材: 洋葱, 彩椒, 蘑菇, 蒜, 番茄切小丁; 小菠菜切小段;",
+            "2. 平底锅中火热锅, 锅热放油, 先下洋葱丁, 彩椒丁和蒜沫炒软，再加入蘑菇继续炒到微缩; 炒软秘诀是放一点点盐，利用渗透压析出食材里面的水。",
+            "3. 放小茴香，孜然，黑胡椒和适量盐翻炒调味，再加入番茄丁和菠菜段，继续炒到微微出汤。",
+            "4. 菜中间挖两个洞, 鸡蛋整颗打入。调小火, 盖盖焖5分钟",
+            "5. 蔬菜收汁后, 在鸡蛋上面撒点甜椒粉（或辣椒粉），减脂也要美美的",
+            "6. 装盘加点香菜叶装饰, 趁热享用"
+        ],
+        "instruction": {
+            "groups": [
+                {
+                    "group_order": 1,
+                    "title": ""
+                }
+            ],
+            "steps": [
+                {
+                    "group_order": 1,
+                    "step_order": 1,
+                    "desc": "处理食材: 洋葱, 彩椒, 蘑菇, 蒜, 番茄切小丁; 小菠菜切小段;"
+                },
+                {
+                    "group_order": 1,
+                    "step_order": 2,
+                    "desc": "平底锅中火热锅, 锅热放油, 先下洋葱丁, 彩椒丁和蒜沫炒软，再加入蘑菇继续炒到微缩; 炒软秘诀是放一点点盐，利用渗透压析出食材里面的水。"
+                },
+                {
+                    "group_order": 2,
+                    "step_order": 3,
+                    "desc": "放小茴香，孜然，黑胡椒和适量盐翻炒调味，再加入番茄丁和菠菜段，继续炒到微微出汤。"
+                },
+                {
+                    "group_order": 2,
+                    "step_order": 4,
+                    "desc": "菜中间挖两个洞，鸡蛋整颗打入。调小火，盖盖焖5分钟"
+                },
+                {
+                    "group_order": 2,
+                    "step_order": 5,
+                    "desc": "蔬菜收汁后, 在鸡蛋上面撒点甜椒粉（或辣椒粉），减脂也要美美的"
+                },
+                {
+                    "group_order": 3,
+                    "step_order": 6,
+                    "desc": "装盘加点香菜叶装饰, 趁热享用"
+                }
+            ],
+            "ingredients": [
+                {
+                    "name": "洋葱",
+                    "amount": "20g",
+                    "group_order": 1,
+                    "step_order": 1
+                },
+                {
+                    "name": "彩椒/青辣椒",
+                    "amount": "20g",
+                    "group_order": 1,
+                    "step_order": 1
+                },
+                {
+                    "name": "口蘑(其他蘑菇也可)",
+                    "amount": "50g",
+                    "group_order": 1,
+                    "step_order": 1
+                },
+                {
+                    "name": "蒜",
+                    "amount": "2瓣",
+                    "group_order": 1,
+                    "step_order": 1
+                },
+                {
+                    "name": "小菠菜",
+                    "amount": "5 颗",
+                    "group_order": 1,
+                    "step_order": 1
+                },
+                {
+                    "name": "番茄",
+                    "amount": " 1 个",
+                    "group_order": 1,
+                    "step_order": 1
+                },
+
+
+
+                {
+                    "name": "红糖",
+                    "amount": "15g",
+                    "group_order": 1,
+                    "step_order": 1
+                },
+                {
+                    "name": "白糖",
+                    "amount": "15g",
+                    "group_order": 2,
+                    "step_order": 3
+                },
+                {
+                    "name": "盐",
+                    "amount": "10g",
+                    "group_order": 2,
+                    "step_order": 3
+                },
+                {
+                    "name": "水",
+                    "amount": "100g",
+                    "group_order": 2,
+                    "step_order": 3
+                },
+                {
+                    "name": "酵母",
+                    "amount": "2g",
+                    "group_order": 2,
+                    "step_order": 3
+                },
+                {
+                    "name": "烫种",
+                    "amount": "",
+                    "group_order": 2,
+                    "step_order": 3
+                },
+                {
+                    "name": "波兰种",
+                    "amount": "",
+                    "group_order": 2,
+                    "step_order": 3
+                },
+                {
+                    "name": "小苏打",
+                    "amount": "2g",
+                    "group_order": 3,
+                    "step_order": 7
+                },
+                {
+                    "name": "红糖",
+                    "amount": "10g",
+                    "group_order": 3,
+                    "step_order": 7
+                },
+                {
+                    "name": "水",
+                    "amount": "2L",
+                    "group_order": 3,
+                    "step_order": 7
+                },
+            ],
+        },
+        "instructions": [
+            {
+                "ingredients": [
+                    "洋葱, 20g",
+                    "20g, 彩椒/青辣椒",
+                    "50g, 口蘑(其他蘑菇也可)",
+                    "2 瓣, 蒜",
+                    "5 颗, 小菠菜",
+                    "1 个, 番茄"
+                ],
+                "steps": [
+                    "1. 处理食材: 洋葱, 彩椒, 蘑菇, 蒜, 番茄切小丁; 小菠菜切小段."
+                ]
+            },
+            {
+                "ingredients": [
+                    "1 勺, 橄榄油",
+                    "盐, 少许"
+                ],
+                "steps": [
+                    "2. 平底锅中火热锅, 锅热放油, 先下洋葱丁, 彩椒丁和蒜沫炒软，再加入蘑菇继续炒到微缩; 炒软秘诀是放一点点盐，利用渗透压析出食材里面的水。"
+                ]
+            },
+            {
+                "ingredients": [
+                    "10 粒(一小捏), 小茴香",
+                    "10 粒(一小捏), 孜然",
+                    "少许, 黑胡椒粉"
+                ],
+                "steps": [
+                    "3. 放小茴香，孜然，黑胡椒和适量盐翻炒调味，再加入番茄丁和菠菜段，继续炒到微微出汤。"
+                ]
+            },
+            {
+                "ingredients": [
+                    "2 颗, 鸡蛋"
+                ],
+                "steps": [
+                    "4. 菜中间挖两个洞, 鸡蛋整颗打入。调小火, 盖盖焖5分钟"
+                ]
+            },
+            {
+                "ingredients": [
+                    "甜椒粉, 适量"
+                ],
+                "steps": [
+                    "5. 蔬菜收汁后, 在鸡蛋上面撒点甜椒粉（或辣椒粉），减脂也要美美的"
+                ]
+            },
+            {
+                "ingredients": [
+                    "1 根, 香菜, 装饰"
+                ],
+                "steps": [
+                    "6. 装盘加点香菜叶装饰, 趁热享用"
+                ]
+            }
+        ],
+        "meal": "breakfast",
+        "lang": "zh",
+        "cal": "196",
+        "labels": [
+            "优质蛋白",
+            "膳食纤维"
+        ],
+        "category": "减脂快手菜",
+        "created_at": "",
+        "updated_at": ""
+    },
+]

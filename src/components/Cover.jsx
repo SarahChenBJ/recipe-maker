@@ -34,7 +34,7 @@ export const ViewCover = ({ data }) => {
       >
         <div className='cover-major-container'>
             {/* <div className='container text-center' style={{ backgroundImage: `url(${data.img})` }}> */}
-                <div class="cover-content" style={{ backgroundImage: `url(${data.img})` }}>
+                <div class="cover-content" style={{ backgroundImage: `url(${data.coverImg === undefined || data.coverImg==="" ? data.img:data.coverImg})` }}>
                     <div class="cover-label">
                         <div><span class="cover-category">{data.category}食谱</span></div>
                         <div><span class="cover-meal">{data.meal}</span></div>

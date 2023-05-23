@@ -101,9 +101,9 @@ small {
   line-height: var(--lh-1);
 }
 
-p {
+/* p {
   max-width: var(--content);
-}
+} */
 
 /* color utils */
 
