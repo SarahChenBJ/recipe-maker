@@ -273,6 +273,9 @@
 .mgt-20{
     margin-top:20px;
 }
+.mgl-18{
+    margin-left: 18px;
+}
 
 
 /*------------ card 2-1 css  ------------*/
@@ -308,6 +311,16 @@
 .bcard-text-content{
     display: flex;
     flex-flow: row nowrap;
+    justify-content: space-around;
+    margin-top: 42px;
+    margin-right: 8px;
+    height: 70%;
+    padding: 5px 16px;
+}
+
+.bcard-text-content-group{
+    display: flex;
+    flex-flow: column nowrap;
     justify-content: space-around;
     margin-top: 42px;
     margin-right: 8px;
@@ -438,4 +451,44 @@
 
 .grouptitle{
     font-weight: bold;
+}
+
+
+/**----------------- en 2-1 -------------------**/
+.en-title-font{
+    font-family: Garamond;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+
+.en-bcard-ingre{
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+    font-family: Myriad;
+    width: 50%;
+    margin: 15px;
+    margin-right: 10px;
+    line-height: 18px;
+}
+
+
+.en-bcard-steps{
+    display: flex;
+    flex-flow: column nowrap;
+    margin:15px 20px 0 20px;
+}
+.en-bstep-item{
+    font-size: 11px;
+    font-family: Myriad;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 10px;
+    line-height: 16px;
+}
+.en-bintro-font{
+    font-family: Myriad;
+    font-size: 9.5px;
+    color: gray;
 }

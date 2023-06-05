@@ -16,7 +16,7 @@ class ListCards extends React.Component{
       componentDidMount() {
         const config = {
           headers:{
-            auth_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImVsZXZlbl9jaGVueHVAMTYzLmNvbSIsInBhc3N3b3JkIjoiMDAwMDAwIiwiZXhwIjoxNjg0ODU1MjExLCJpc3MiOiJjb29rYWdlLWFwcCJ9.KAMkFRuA8v4rQO5GqoPcK0qlNocHggdNR892vjX1WPM" 
+            auth_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImVsZXZlbl9jaGVueHVAMTYzLmNvbSIsInBhc3N3b3JkIjoiMDAwMDAwIiwiZXhwIjoxNjg2MTUwNjEzLCJpc3MiOiJjb29rYWdlLWFwcCJ9.xO1YD5jbilj3Gpa095EtXzLHuOVfkuCHH3ENBqWAHw0",
           }
         }
         

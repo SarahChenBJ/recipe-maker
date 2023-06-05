@@ -18,7 +18,7 @@
                 {
                     "group_order": 3,
                     "title": "第三天: 煮 bagel, 烘烤"
-                },
+                }
             ],
             "steps": [
                 {
@@ -163,8 +163,8 @@
                     "amount": "2L",
                     "group_order": 3,
                     "step_order": 7
-                },
-            ],
+                }
+            ]
         },
         "instructions": [
             {
@@ -453,8 +453,8 @@
                     "amount": "2L",
                     "group_order": 3,
                     "step_order": 7
-                },
-            ],
+                }
+            ]
         },
         "instructions": [
             {
@@ -524,5 +524,5 @@
         "category": "减脂快手菜",
         "created_at": "",
         "updated_at": ""
-    },
+    }
 ]

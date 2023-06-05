@@ -4,16 +4,13 @@ import CardHeader from '@mui/material/CardHeader';
 import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
 import CardActions from '@mui/material/CardActions';
-import { CardActionArea, Chip, Divider, Modal, Stack,Button } from '@mui/material';
-import { ViewCover } from './Cover';
-import {ViewCard_group_ver_ximg} from './listTemplate/Card4';
-import {ViewCard_ungroup_hor} from './listTemplate/Card2-1';
-import {ViewCard_group_ver} from './listTemplate/Card3';
-import {ViewCard_ungroup_ver} from './listTemplate/Card4-1';
-import {ViewCard_group_hor} from './listTemplate/Card2';
-import {ViewCard_ungroup_ver_img} from './listTemplate/Card3-1';
+import IconButton from '@mui/material/IconButton';
+import Typography from '@mui/material/Typography';
+import { CardActionArea, Chip, Divider, Modal, Stack, Button} from '@mui/material';
+import {ViewCard_ungroup_hor_en } from './Card2-1-en'
+import { ViewCover } from '../Cover';
 
-export default function RecipeReviewCard({ data }) {
+export default function RecipeReviewCarden({ data }) {
     const [open, setOpen] = React.useState(false);
     const viewCard = () => setOpen(true);
     const closeCard = () => setOpen(false);
@@ -22,17 +19,6 @@ export default function RecipeReviewCard({ data }) {
     const viewCover = () => setCoverOpen(true);
     const closeCover = () => setCoverOpen(false);
 
-    const getTemplate = (recipe) => {
-        switch (recipe.template) {
-          case 'card2-1': return <ViewCard_ungroup_hor data={recipe}/>
-          case 'card3': return <ViewCard_group_ver data={recipe}/>
-          case 'card4': return <ViewCard_group_ver_ximg data={recipe}/>
-          case 'card4-1': return <ViewCard_ungroup_ver data={recipe}/>
-          case 'card2': return <ViewCard_group_hor data={data}/>
-          case 'card3-1': return <ViewCard_ungroup_ver_img data={data}/>
-          default: return <ViewCard_ungroup_hor data={recipe}/>
-        }
-      }
 
     return (
         <>
@@ -41,20 +27,26 @@ export default function RecipeReviewCard({ data }) {
             {}
                 <CardMedia
                     component="img"
-                    height="180"
+                    height="230"
                     image={data.coverImg === undefined || data.coverImg=="" ? data.img : data.coverImg}
                     alt={data.subheader}
                 />
                 <CardHeader title={data.title} />
+                
                 <CardContent> 
-                    <div className='story'>
-                        {data.intro}
-                    </div>
+                <Typography variant="body2" color="text.secondary">
+                    {data.intro}
+                </Typography>
                 <Stack direction="row" mt={2}  spacing={1} >
                     {data.labels && data.labels.map((lb) => (<Chip label={lb} />))}
                 </Stack>
             </CardContent>
             </CardActionArea>
+            <CardActions onClick={viewCover}>
+                <Button size="small" color="primary">
+                View Cover
+                </Button>
+            </CardActions>
 
             {/* <CardActions disableSpacing>
                 <IconButton aria-label="add to favorites" >
@@ -65,11 +57,6 @@ export default function RecipeReviewCard({ data }) {
                 </IconButton>
                 
             </CardActions> */}
-            <CardActions onClick={viewCover}>
-                <Button size="small" color="primary">
-                View Cover
-                </Button>
-            </CardActions>
         </Card>
         <Modal
             open={open}
@@ -77,14 +64,10 @@ export default function RecipeReviewCard({ data }) {
             aria-labelledby="modal-modal-title"
             aria-describedby="modal-modal-description"
         >
-            {
-                getTemplate(data)
-            }
-            {/* <ViewCardVertical data={data}/> */}
-            {/* {data.lang === 'zh' ? <ViewCard2 data={data}/> : <ViewCard data={data}/>} */}
-            {/* <ViewCardVertical data={data}/>
-            <ViewCardVertical2 data={data}/> */}
+            <ViewCard_ungroup_hor_en  data={data}/>
+
         </Modal>
+       
         <Modal
             open={coverOpen}
             onClose={closeCover}

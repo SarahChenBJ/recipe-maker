@@ -7,7 +7,12 @@ import html2canvas from 'html2canvas';
 
 export const ViewCover = ({ data }) => {
     const downloadCover = () => {
-        html2canvas(document.getElementById('capture')).then((canvas)=>{
+        const dom = document.getElementById('capture');
+
+    const config = {
+      useCORS: true
+    }
+    html2canvas(dom, config).then((canvas)=>{
           const link = document.createElement("a");
           link.href = canvas.toDataURL();
           link.setAttribute("download", data.title+".cover.jpg");

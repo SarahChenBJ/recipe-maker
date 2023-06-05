@@ -13,17 +13,23 @@ import html2canvas from 'html2canvas';
 //   maxHeight: '650'
 // });
 
+//vertical: noimg + ungroup
 export const ViewCard_ungroup_ver = ({ data }) => {
     const downloadCard = () => {
-        html2canvas(document.getElementById('capture')).then((canvas) => {
+        const dom = document.getElementById('capture');
+  
+        const config = {
+          useCORS: true
+        }
+        html2canvas(dom, config).then((canvas)=>{
             const link = document.createElement("a");
             link.href = canvas.toDataURL();
-            link.setAttribute("download", data.title + ".jpg");
+            link.setAttribute("download", data.title+".jpg");
             link.style.display = "none";
             document.body.appendChild(link);
             link.click();
-        });
-    }
+          });
+        };
 
     return (
 

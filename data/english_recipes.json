@@ -1,0 +1,45 @@
+[{
+    "id": "645e00981a0b7c2438ba0227",
+    "user_id": 1,
+    "title": "Stir-Fry with Rotini",
+    "subheader": "中式炒意面",
+    "intro": "This is a similar dish with Chow Mein. In order to increase satiety, I use Rotini instead. ",
+    "intro": "减脂期一个周六的中午，忽然想吃炒面, 疯狂的思念那种焦香噎人的口感。那天中午，就自己从教练规定的减脂食材里，鼓捣出了这道中式炒意面。",
+    "sign": "陈沙拉",
+    "serves": 1,
+    "img": "./src/assets/spaghetti.png",
+    "coverImg": "",
+    "instructions": [
+        {
+            "group_title": "",
+            "ingredients": [
+                "35g, 意大利面",
+                "45g, 卷心菜",
+                "30g, 胡萝卜",
+                "10g, 洋葱",
+                "1 瓣, 蒜",
+                "5g, 盐",
+                "少许, 黑胡椒",
+                "1 小勺, 酱油",
+                "0.5 小勺, 蚝油"
+            ],
+            "steps": [
+                "1. 准备食材: 将卷心菜和胡萝卜切成跟意面大小类似的小片(如果是长面条形的, 就切丝); 蒜切片, 洋葱切小片备用.",
+                "2. 煮意面: 按照意面包装上的说明, 煮熟意面. 煮成捞出沥水备用, 可以加点橄榄油防粘.",
+                "3. 锅中加油，下洋葱蒜片爆香，倒入卷心菜和胡萝卜翻炒至微软。加酱油，继续翻炒，倒入意面。加入耗油和盐，翻炒两下，出锅.",
+                "4. 配上 100g 的牛排或者鸡排, 就是一套好吃不胖的减脂餐."
+            ]
+        }
+    ],
+    "meal": "lunch",
+    "lang": "zh",
+    "cal": "148",
+    "labels": [
+        "优质碳水"
+    ],
+    "category": "减脂快手菜",
+    "template": "card2-1"
+}
+
+
+]

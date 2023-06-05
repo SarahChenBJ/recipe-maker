@@ -15,7 +15,7 @@ const Img = styled('img')({
 });
 
 //horizontal: img + ungroup
-export const ViewCard_ungroup_hor = ({ data }) => {
+export const ViewCard_ungroup_hor_en = ({ data }) => {
   const downloadCard = () => {
     const dom = document.getElementById('capture');
 
@@ -55,20 +55,20 @@ export const ViewCard_ungroup_hor = ({ data }) => {
         <div className='bcard-text-container'>
             <div className='bcard-text-header'>
                 <div className='bcategory-font'>  {data.category} </div>
-                <div className='bcard-title btitle-font'>{data.title}</div>
+                <div className='bcard-title en-title-font'>{data.title}</div>
                 <div className='bsubtitle-font'>{data.subheader}</div>
                 <div className='bcard-intro '>
-                    <div className='bintro-font'>{data.intro}</div>
+                    <div className='en-bintro-font'>{data.intro}</div>
                     <div className='bintro-font signature'> –––––– {data.sign}</div>
                 </div>
             </div>
             <div className='bcard-text-content'>
-                <div className='bcard-ingre'>
+                <div className='en-bcard-ingre'>
                 <div className='bcard-serve'>SERVES {data.serves}</div>
                 {data.instructions[0].ingredients && data.instructions[0].ingredients.map((s) => (<p>{s}</p>))}
                 </div>
-                <div className='bcard-steps'>
-                {data.instructions[0].steps && data.instructions[0].steps.map((s) => (<div className='bstep-item'>{s}</div>))}
+                <div className='en-bcard-steps'>
+                {data.instructions[0].steps && data.instructions[0].steps.map((s) => (<div className='en-bstep-item'>{s}</div>))}
                 </div>
             </div>
             <div className='download-btn' id="download-btn">
